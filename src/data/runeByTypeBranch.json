@@ -93485,7 +93485,7 @@
 			"SpecialDescId": 0
 		}, {
 			"Id": 830001,
-			"Name": "物理攻击",
+			"Name": "Atk",
 			"Key": "Atk",
 			"Value": 4.5,
 			"Type": 1,
