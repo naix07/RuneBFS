@@ -22,8 +22,8 @@ var supportedLang = [
 var currentLang = '';
 var data = [];
 //navbar
-data["class"] = { "ja-JP": "職業", "zh-TW": "職業", "en-US": "Classes", "zh-CN": "职业" };
-data["type-1"] = { "ja-JP": "剣士系", "zh-TW": "劍士系", "en-US": "Swordman", "zh-CN": "剑士系" };
+data["class"] = { "ja-JP": "職業", "zh-TW": "職業", "en-US": "Jobs", "zh-CN": "职业" };
+data["type-1"] = { "ja-JP": "剣士系", "zh-TW": "劍士系", "en-US": "Swordsman", "zh-CN": "剑士系" };
 data["type-2"] = { "ja-JP": "マジシャン系", "zh-TW": "魔法師系", "en-US": "Mage", "zh-CN": "魔法师系" };
 data["type-3"] = { "ja-JP": "シーフ系", "zh-TW": "盜賊系", "en-US": "Thief", "zh-CN": "盗贼系" };
 data["type-4"] = { "ja-JP": "アーチャー系", "zh-TW": "弓箭手系", "en-US": "Archer", "zh-CN": "弓箭手系" };
