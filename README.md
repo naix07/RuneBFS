@@ -4,4 +4,4 @@ All rune data rights belong to XinDong.
 
 ### Todo 
 
-- ???
+- Complete english version
