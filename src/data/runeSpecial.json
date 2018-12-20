@@ -610,7 +610,7 @@
 		"SkillTipParm": [3.0, 3.0]
 	}, {
 		"Id": 31001,
-		"RuneName": "伏击增幅Ⅰ",
+		"RuneName": "Ambush Booster I",
 		"Runetip": 3000,
 		"SkillTipParm": [5.0]
 	}, {
