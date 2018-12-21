@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-//const CopyWebpackPlugin = require('copy-webpack-plugin');
+// const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = env => {
   console.log('Production: ', env.production) // true
@@ -15,12 +15,14 @@ module.exports = env => {
     }),
     new ExtractTextPlugin("[name].[contenthash].css"),
     // new CopyWebpackPlugin([
-    //   { from: 'src/img/item', to: 'img/item' },
-    //   { from: 'src/img/quest', to: 'img/quest' }
+    // { from: 'src/img/item', to: 'img/item' },
+    // { from: 'src/img/quest', to: 'img/quest' }
     // ]),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: "data",
-    }),
+
+
+     new webpack.optimize.CommonsChunkPlugin({
+     name: "data",
+     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
@@ -65,18 +67,18 @@ module.exports = env => {
           ]
         },
         // {
-        //   test: /\.(tpl|html)$/,
-        //   include: [
-        //     path.resolve(__dirname, "src/template")
-        //   ],
-        //   use: [
-        //     {
-        //       loader: 'underscore-template-loader',
-        //       options: {
-        //         globalLodash: true,
-        //       }
-        //     }
-        //   ]
+        // test: /\.(tpl|html)$/,
+        // include: [
+        // path.resolve(__dirname, "src/template")
+        // ],
+        // use: [
+        // {
+        // loader: 'underscore-template-loader',
+        // options: {
+        // globalLodash: true,
+        // }
+        // }
+        // ]
         // }
       ]
     },

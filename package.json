@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoMELDE/RuneBFS.git"
+    "url": "git+https://github.com/naix07/RuneBFS.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RoMELDE/RuneBFS/issues"
+    "url": "https://github.com/naix07/RuneBFS/issues"
   },
-  "homepage": "https://github.com/RoMELDE/RuneBFS#readme",
+  "homepage": "https://github.com/naix07/RuneBFS#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.9",
@@ -28,7 +28,8 @@
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.1.8",
     "url-loader": "^0.6.2",
-    "webpack": "^3.11.0"
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.3",
