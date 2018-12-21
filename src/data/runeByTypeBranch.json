@@ -87164,7 +87164,7 @@
 			"SpecialDescId": 0
 		}, {
 			"Id": 500000,
-			"Name": "中毒Ⅱ",
+			"Name": "Poisoned II",
 			"Key": null,
 			"Value": 0.0,
 			"Type": 6,
@@ -93471,7 +93471,7 @@
 			"SpecialDescId": 0
 		}, {
 			"Id": 550002,
-			"Name": "中毒Ⅰ",
+			"Name": "Poisoned I",
 			"Key": null,
 			"Value": 0.0,
 			"Type": 6,
